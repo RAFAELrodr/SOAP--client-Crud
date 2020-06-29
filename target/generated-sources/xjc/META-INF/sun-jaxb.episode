@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2020.06.29 às 01:12:46 AM BRT 
+
+  -->
+  <bindings xmlns:tns="http://tatfema.com.br" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.example.consumingwebservice.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:InsertCustomerRequest">
+      <class ref="com.example.consumingwebservice.wsdl.InsertCustomerRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CustomerDetail">
+      <class ref="com.example.consumingwebservice.wsdl.CustomerDetail"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:InsertCustomerResponse">
+      <class ref="com.example.consumingwebservice.wsdl.InsertCustomerResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCustomerDetailRequest">
+      <class ref="com.example.consumingwebservice.wsdl.GetCustomerDetailRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCustomerDetailResponse">
+      <class ref="com.example.consumingwebservice.wsdl.GetCustomerDetailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetAllCustomerDetailRequest">
+      <class ref="com.example.consumingwebservice.wsdl.GetAllCustomerDetailRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetAllCustomerDetailResponse">
+      <class ref="com.example.consumingwebservice.wsdl.GetAllCustomerDetailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DeleteCustomerRequest">
+      <class ref="com.example.consumingwebservice.wsdl.DeleteCustomerRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DeleteCustomerResponse">
+      <class ref="com.example.consumingwebservice.wsdl.DeleteCustomerResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:UpdateCustomerRequest">
+      <class ref="com.example.consumingwebservice.wsdl.UpdateCustomerRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:UpdateCustomerResponse">
+      <class ref="com.example.consumingwebservice.wsdl.UpdateCustomerResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Status">
+      <typesafeEnumClass ref="com.example.consumingwebservice.wsdl.Status"/>
+    </bindings>
+  </bindings>
+</bindings>
